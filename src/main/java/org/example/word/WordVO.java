@@ -6,11 +6,13 @@ public class WordVO {
     private String kor;
     private String eng;
 
+    //Constructor
     public WordVO(String kor, String eng){
         this.kor = kor;
         this.eng = eng;
     }
 
+    //Getter
     public String getKor() {
         return kor;
     }
@@ -19,6 +21,7 @@ public class WordVO {
         return eng;
     }
 
+    //toString: 없으면 @가 나옴
     @Override
     public String toString() {
         return "WordVO{" +
